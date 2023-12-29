@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Bash script that displays listening ports
-netstat -lp
+# Get listening sockets information using netstat
+
+sudo netstat -lp
